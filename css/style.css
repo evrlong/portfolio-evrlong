@@ -157,14 +157,17 @@ figure {
 .links a {
   border-radius: 5px;
   border-style: solid;
-  color: white;
+  border-color: rgb(146, 146, 146);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
   text-decoration: none;
-  padding: 7px;
-  background-color: rgb(168, 167, 167);
+  border-width: 1px;
+  padding: 3px 8px;
+  background-color: white;
 }
 
 .links a:hover {
-  color: #f80000;
+  background-color: rgb(208, 243, 204);
 }
 .emailClass {
   display: flex;
