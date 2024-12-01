@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(circle at bottom left, #050216, #1b173d, #141228);
+  min-height: 100vh;
+  margin: 0;
+  color: white;
+  font-family: "orbitron", sans-serif;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* FONTS */
+h1 {
+  font-size: 3.5em;
+  font-weight: 900;
+  margin: 0;
+}
+
+p {
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff28;
+  color: white;
+  padding: 10px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for better visibility */
+}
+
+header ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+header ul li {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+section * {
+  display: flex;
+  align-items: center;
+}
+
+.alignClass {
+  align-items: center;
+}
+
+.leftSection,
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightSection {
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  height: 20em;
+  width: 16em;
+  margin: 1em;
+  color: black;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: height 0.5s, width 0.5s;
+  font-family: roboto;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 50px;
+  transition: height 0.5s, width 0.5s, border-color 0.5s, border-radius 0.5s;
+}
+
+.projectCard:hover {
+  height: 22em;
+  width: 18em;
+  border-color: #1b173da4;
+  border-radius: 30px;
+}
+
+.projectCard h2 {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 1.1em;
+}
+
+.projectCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px;
+}
+
+figure {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 2px 5px black;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+.links a {
+  border-radius: 5px;
+  border-style: solid;
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+  background-color: rgb(168, 167, 167);
+}
+
+.links a:hover {
+  color: #f80000;
+}
+.emailClass {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.emailClass p {
+  flex-direction: column;
+}
+
+.emailClass a {
+  color: rgb(0, 255, 242);
+  text-decoration: none;
+  font-size: 25px;
+  transition: font-size 0.5s, color 0.5s;
+}
+
+.emailClass a:hover {
+  color: #b4f500;
+  font-size: 26px;
+}
