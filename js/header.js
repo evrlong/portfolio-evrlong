@@ -10,6 +10,7 @@ export function createHeader() {
   navItems.forEach((item) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
+    ul.className = "nav";
     a.className = "navItem";
     a.textContent = item;
     a.href = `#${item.toLowerCase()}`;
