@@ -50,6 +50,10 @@ header ul li {
   text-decoration: none;
 }
 
+.burgerMeny {
+  display: none;
+}
+
 .navItem {
   text-decoration: none;
   color: rgb(0, 250, 0);
@@ -178,9 +182,14 @@ section * {
 }
 
 .projectCard h2 {
+  color: rgb(43, 43, 43);
   margin: 0;
   padding: 0.5em;
   font-size: 1.1em;
+}
+
+.cardBody p {
+  text-align: center;
 }
 
 .projectCard img {

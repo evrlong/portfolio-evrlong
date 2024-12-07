@@ -138,13 +138,13 @@
 
   .projectCard {
     border-radius: 20px;
-    height: 12em;
+    height: 13.5em;
     width: 15em;
   }
 
   .projectCard:hover {
-    height: 15em;
-    width: 16em;
+    height: 13.5em;
+    width: 15em;
   }
 
   .profileImg {
@@ -163,5 +163,14 @@
 
   .emailClass a:hover {
     font-size: 1.7em;
+  }
+
+  .cardBody p {
+    font-size: 0.8em;
+    padding: 2px 5px;
+  }
+
+  .cardBody h2 {
+    font-size: 1em;
   }
 }
