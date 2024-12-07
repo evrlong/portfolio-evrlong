@@ -248,3 +248,12 @@ figure {
   color: #b4f500;
   font-size: 26px;
 }
+
+.profileImg {
+  width: 100%;
+  height: 30em;
+  object-fit: cover;
+  border-radius: 5%;
+  margin: 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.459);
+}

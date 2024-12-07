@@ -1,0 +1,167 @@
+/* media queries */
+
+@media (max-width: 768px) {
+  header {
+    display: none;
+  }
+
+  /* Burger Icon */
+  .burgerIcon {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1200;
+  }
+
+  .burgerIcon.active .burgerLine:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .burgerLine {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burgerMeny {
+    display: block;
+  }
+
+  .burgerItem {
+    text-align: center;
+  }
+
+  .burgerItem:hover {
+    background-color: #f1f1f1;
+  }
+
+  .burgerItem a {
+    color: black;
+  }
+
+  .burgerItem a:hover {
+    color: #3da35d;
+  }
+
+  .burgerItem a::before,
+  .burgerItem a::after {
+    display: none;
+  }
+
+  .burgerItem a:hover::before,
+  .burgerItem a:hover::after {
+    display: none;
+  }
+
+  .burgerItem a:hover {
+    color: #3da35d;
+  }
+
+  .burgerItem a {
+    padding: 1em 0;
+  }
+
+  .burgerMeny {
+    position: fixed;
+    top: 0;
+    top: -100%;
+    width: 100%;
+    height: 12em;
+    background-color: rgb(124, 198, 233);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: top 0.3s ease;
+  }
+
+  .burgerMeny.active {
+    top: 0;
+  }
+
+  .burgerUl {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .burgerItem {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottomCard {
+    flex-direction: column;
+  }
+
+  .leftSection * {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .leftSection {
+    justify-content: center;
+  }
+
+  .alignClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projectClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardBody h2 {
+    padding: 0px;
+  }
+
+  .projectCard {
+    border-radius: 20px;
+    height: 12em;
+    width: 15em;
+  }
+
+  .projectCard:hover {
+    height: 15em;
+    width: 16em;
+  }
+
+  .profileImg {
+    height: 20em;
+    margin-top: 2em;
+  }
+
+  /* fonts */
+  h1 {
+    font-size: 2em;
+  }
+
+  .emailClass a {
+    font-size: 1.5em;
+  }
+
+  .emailClass a:hover {
+    font-size: 1.7em;
+  }
+}
