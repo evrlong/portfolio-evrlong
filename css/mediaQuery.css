@@ -1,6 +1,6 @@
 /* media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 880px) {
   header {
     display: none;
   }
