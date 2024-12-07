@@ -132,14 +132,19 @@
     align-items: center;
   }
 
-  .cardBody h2 {
-    padding: 0px;
+  .projectCard:hover {
+    height: 13.5em;
+    width: 15em;
   }
 
   .projectCard {
     border-radius: 20px;
-    height: 13.5em;
+    height: 12em;
     width: 15em;
+  }
+
+  .links {
+    padding-bottom: 5px;
   }
 
   .projectCard:hover {
@@ -153,6 +158,7 @@
   }
 
   /* fonts */
+
   h1 {
     font-size: 2em;
   }
@@ -172,5 +178,10 @@
 
   .cardBody h2 {
     font-size: 1em;
+    padding: 3px;
+  }
+
+  .links a {
+    font-size: 12px;
   }
 }
