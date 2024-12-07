@@ -141,6 +141,7 @@
     border-radius: 20px;
     height: 12em;
     width: 15em;
+    margin: 8px;
   }
 
   .links {
@@ -148,7 +149,7 @@
   }
 
   .projectCard:hover {
-    height: 13.5em;
+    height: 12em;
     width: 15em;
   }
 
